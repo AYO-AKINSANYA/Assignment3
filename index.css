@@ -1,3 +1,8 @@
+/* * {
+    overflow-x: hidden;
+} */
+
+
 body {
     margin: 0;
     padding: 0;
@@ -115,6 +120,8 @@ body {
     left: 5%;
     top: 43%;
 }
+
+
 
 .Ger,
 .Bar {
@@ -1165,12 +1172,69 @@ h5 {
 }
 
 .hamburger {
+    position: relative;
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 10px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.hamburger svg {
+    transform: scale(0.8);
+    font-size: clamp(25px, 4vw, 40px);
+}
+
+.hamburger svg path {
+    fill: #DCCA87;
+}
+
+#times {
     display: none;
 }
 
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    left: 0;
+    top: 60px;
+    overflow: hidden;
+    background: #0C0B08;
+    z-index: 5;
+    padding-left: 30%;
+}
+
+.nav-dropdown a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+    padding: 2%;
+    border: 1px solid #AAA;
+    font-family: Open Sans;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.nav-dropdown svg {
+    transform: scale(0.8);
+}
+
+.nav-dropdown svg path {
+    fill: #DCCA87;
+}
 
 
 @media screen and (max-width: 576px) {
+    /* * {
+        overflow-x: hidden;
+    } */
+
     body {
         margin: 0;
         padding: 0;
@@ -1191,20 +1255,8 @@ h5 {
 
     .hamburger {
         display: block;
-        background: transparent;
-        border: none;
-        outline: none;
-        width: 10px;
-        height: 20px;
-        margin-right: 20px;
-    }
-
-    .hamburger svg {
-        transform: scale(0.8);
-    }
-
-    .hamburger svg path {
-        fill: #DCCA87;
+        display: flex;
+        align-items: center;
     }
 
     .Menu {
