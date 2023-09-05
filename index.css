@@ -48,7 +48,7 @@ body {
 
 .Ho {
     width: 60px;
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-family: Open Sans;
     font-size: 10px;
     font-style: normal;
@@ -159,7 +159,7 @@ body {
 }
 
 .C {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright', serif;
     font-size: 20px;
@@ -177,12 +177,12 @@ body {
     display: flex;
     align-items: flex-start;
     width: 40px;
-    fill: var(--dcca-87, #DCCA87);
+    fill: #DCCA87;
 }
 
 .T {
     width: 100%;
-    color: var(--dcca-87, #DCCA87);
+    color: #DCCA87;
     font-family: 'Cormorant Upright', serif;
     font-size: 60px;
     font-style: normal;
@@ -196,7 +196,7 @@ body {
 
 .Sit {
     width: 100%;
-    color: var(--aaaaaa, #AAA);
+    color: #AAA;
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -211,7 +211,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--dcca-87, #DCCA87);
+    background: #DCCA87;
     color: #0C0B08;
     font-family: 'Cormorant Upright', serif;
     font-size: 12px;
@@ -221,6 +221,8 @@ body {
     letter-spacing: 0.5px;
     border: none;
     outline: none;
+    border-radius: 5%;
+    cursor: pointer;
 }
 
 .Heroimage {
@@ -299,7 +301,7 @@ body {
 }
 
 .Sc {
-    color: var(--dcca-87, #DCCA87);
+    color: #DCCA87;
     font-family: 'Cormorant Upright', serif;
     font-size: 16px;
     font-style: normal;
@@ -351,7 +353,7 @@ body {
 }
 
 .A {
-    color: var(--dcca-87, #DCCA87);
+    color: #DCCA87;
     text-align: right;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright', serif;
@@ -366,7 +368,7 @@ body {
 
 .Lorem {
     width: 450px;
-    color: var(--aaaaaa, #AAA);
+    color: #AAA;
     text-align: right;
     font-family: Open Sans;
     font-size: 16px;
@@ -382,9 +384,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--dcca-87, #DCCA87);
+    background: #DCCA87;
     outline: none;
     border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    color: #0C0B08;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .G {
@@ -421,7 +427,7 @@ body {
 }
 
 .O {
-    color: var(--dcca-87, #DCCA87);
+    color: #DCCA87;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright', serif;
     font-size: 32px;
@@ -435,7 +441,7 @@ body {
 
 .Adi {
     width: 500px;
-    color: var(--aaaaaa, #AAA);
+    color: #AAA;
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -521,10 +527,10 @@ h5 {
 }
 
 .wi {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -534,9 +540,9 @@ h5 {
 }
 
 .main-drinks {
-    color: var(--ffffff, #FFF);
+    color: #DCCA87;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: "Cormorant Upright", sans-serif;
+    font-family: 'Cormorant Upright', serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 100%;
@@ -549,10 +555,10 @@ h5 {
 }
 
 .price {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     text-align: right;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 23px;
     font-style: normal;
     font-weight: 700;
@@ -562,7 +568,7 @@ h5 {
 }
 
 .under td {
-    color: var(--aaaaaa, #AAA);
+    color: #AAA;
     text-align: center;
     font-family: Open Sans;
     font-size: 14px;
@@ -583,7 +589,7 @@ h5 {
 
 .ToSpe button {
     cursor: pointer;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
@@ -593,6 +599,9 @@ h5 {
     border-radius: 2px;
     border: none;
     outline: none;
+    background-color: #DCCA87;
+    border-radius: 5%;
+    color: #0C0B08;
 }
 
 .chef {
@@ -635,9 +644,9 @@ h5 {
 
 .N,
 .C {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: "Cormorant Upright", sans-serif;
+    font-family: 'Cormorant Upright', serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 130%;
@@ -664,7 +673,7 @@ h5 {
 }
 
 .chef p:nth-of-type(1) {
-    color: var(--AAAAAA, #AAA);
+    color: #AAA;
     font-family: Open Sans;
     font-size: 16px;
     font-style: italic;
@@ -782,9 +791,9 @@ h5 {
 }
 
 .Bib {
-    color: var(--DCCA87, #DCCA87);
+    color: #DCCA87;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -794,7 +803,7 @@ h5 {
 }
 
 .ipsum {
-    color: var(--AAAAAA, #AAA);
+    color: #AAA;
     font-family: Open Sans;
     font-size: 15px;
     font-style: normal;
@@ -838,7 +847,7 @@ h5 {
 
 .dolor {
     width: 100%;
-    color: var(--AAAAAA, #AAA);
+    color: #AAA;
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
@@ -848,10 +857,14 @@ h5 {
 }
 
 .View {
-    border: 1px solid var(--DCCA87, #DCCA87);
-    background: var(--DCCA87, #DCCA87);
+    border: 1px solid #DCCA87;
+    background: #DCCA87;
     padding: 8px 20px;
     outline: none;
+    cursor: pointer;
+    font-family: 'Cormorant Upright', serif;
+    color: #0C0B08;
+    border-radius: 5%;
 }
 
 .cala {
@@ -955,9 +968,9 @@ h5 {
 }
 
 .Hours {
-    color: var(--DCCA87, #DCCA87);
+    color: #DCCA87;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -967,7 +980,7 @@ h5 {
 }
 
 .weeks {
-    color: var(--FFFFFF, #FFF);
+    color: #FFF;
     font-family: Open Sans;
     font-size: 15px;
     font-style: normal;
@@ -977,10 +990,14 @@ h5 {
 }
 
 .viUs {
-    background: var(--DCCA87, #DCCA87);
+    background: #DCCA87;
     padding: 8px 25px;
     border: none;
     outline: none;
+    border-radius: 5%;
+    cursor: pointer;
+    color: #0C0B08;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .footer {
@@ -1002,7 +1019,7 @@ h5 {
 
 .ter {
     border: 1px solid rgba(220, 202, 135, 0.20);
-    background: var(--0C0C0C, #0C0C0C);
+    background: #0C0C0C;
     box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
     display: flex;
     flex-direction: column;
@@ -1056,7 +1073,7 @@ h5 {
     height: 30px;
     background-color: #0C0B08;
     outline: none;
-    border: 1px solid var(--DCCA87, #DCCA87);
+    border: 1px solid #DCCA87;
 }
 
 #text::placeholder {
@@ -1069,8 +1086,11 @@ h5 {
     padding: 8px 20px;
     text-align: center;
     border: 1px solid var(--DCCA87, #DCCA87);
-    background: var(--DCCA87, #DCCA87);
+    background: #DCCA87;
     font-family: 'Cormorant Upright', serif;
+    border-radius: 5%;
+    color: #0C0B08;
+    cursor: pointer;
 }
 
 .totop {
@@ -1093,7 +1113,7 @@ h5 {
 }
 
 .copy {
-    color: var(--AAAAAA, #AAA);
+    color: #AAA;
     font-family: Open Sans;
     font-size: 15px;
     font-style: normal;
@@ -1105,9 +1125,9 @@ h5 {
 }
 
 .working {
-    color: var(--F5EFDB, #F5EFDB);
+    color: #F5EFDB;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 200;
@@ -1117,9 +1137,9 @@ h5 {
 }
 
 .logos {
-    color: var(--DCCA87, #DCCA87);
+    color: #DCCA87;
     text-align: center;
-    font-family: Cormorant Upright;
+    font-family: 'Cormorant Upright', serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
@@ -1148,7 +1168,7 @@ h5 {
 }
 
 .service {
-    color: var(--FFFFFF, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: Open Sans;
     font-size: 15px;
@@ -1160,7 +1180,7 @@ h5 {
 
 .mofr {
     width: 135px;
-    color: var(--AAAAAA, #AAA);
+    color: #AAA;
     text-align: center;
     font-family: Open Sans;
     font-size: 15px;
@@ -1177,14 +1197,14 @@ h5 {
     background: transparent;
     border: none;
     outline: none;
-    width: 10px;
-    height: 20px;
+    /* width: 10px;
+    height: 20px; */
     margin-right: 20px;
 }
 
 .hamburger svg {
     transform: scale(0.8);
-    /* font-size: clamp(25px, 4vw, 40px); */
+    font-size: clamp(25px, 4vw, 40px);
 }
 
 .hamburger svg path {
@@ -1200,7 +1220,7 @@ h5 {
     display: none;
     right: 0;
     left: 0;
-    top: 60px;
+    top: 80px;
     overflow: hidden;
     background: #0C0B08;
     z-index: 5;
@@ -1327,12 +1347,13 @@ h5 {
     }
 
     .MaskedGroup {
-        width: 200px;
-        height: 170px;
+        width: 50%;
+        height: 70%;
+        margin-left: 10%;
     }
 
     .slider {
-        margin-top: 25%;
+        margin-top: 15%;
     }
 
     .one {
@@ -1584,8 +1605,9 @@ h5 {
     }
 
     .Group26 {
-        height: 40px;
-        margin-top: 2%;
+        width: 0;
+        height: 0;
+        margin-top: 5%;
     }
 
     .Bib {
@@ -1745,7 +1767,7 @@ h5 {
     }
 
     .copy {
-        margin-top: 10%;
+        margin-top: 1%;
     }
 
     .working {
