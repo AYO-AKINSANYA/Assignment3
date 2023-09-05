@@ -231,7 +231,7 @@ body {
     /* overflow: hidden; */
 }
 
-.Rectangle {
+/* .Rectangle {
     position: absolute;
     z-index: -1;
 }
@@ -252,7 +252,7 @@ body {
     background: var(--dcca-87, #DCCA87);
     bottom: -10px;
     left: -10px;
-}
+} */
 
 .MaskedGroup {
     flex-shrink: 0;
@@ -1184,7 +1184,7 @@ h5 {
 
 .hamburger svg {
     transform: scale(0.8);
-    font-size: clamp(25px, 4vw, 40px);
+    /* font-size: clamp(25px, 4vw, 40px); */
 }
 
 .hamburger svg path {
@@ -1310,7 +1310,7 @@ h5 {
         padding-right: 10px;
     }
 
-    .Rectangle20 {
+    /* .Rectangle20 {
         width: 40%;
         height: 60%;
         right: 24%;
@@ -1319,7 +1319,7 @@ h5 {
     .Rectangle21 {
         width: 40%;
         height: 60%;
-    }
+    } */
 
     .Heroimage {
         top: 20px;
@@ -1734,9 +1734,9 @@ h5 {
     }
 
     .totop {
-        top: 21%;
-        left: 92%;
-        width: 7%;
+        top: 23%;
+        left: 94%;
+        width: 6%;
     }
 
     .batch {
@@ -1760,14 +1760,14 @@ h5 {
 
     .logos {
         font-size: 30px;
-        padding-top: 220%;
+        padding-top: 235%;
         margin-bottom: 0;
         margin-left: 25%;
     }
 
     .rd53,
     .num {
-        width: 150%;
+        width: 160%;
     }
 
     .num {
